@@ -1,0 +1,16 @@
+# Orchestration — turns our agents into a graph with loops and branches
+langgraph>=0.2.60
+langchain-core>=0.3.28
+
+# LLM providers — both have real free tiers, no credit card needed
+langchain-groq>=0.2.1
+langchain-openai>=0.3.0
+
+# For calling search APIs (Tavily/Serper) over plain HTTP
+requests>=2.31
+
+# Reads your .env file so API keys never get hardcoded into source files
+python-dotenv>=1.0
+
+# Testing
+pytest>=8.0

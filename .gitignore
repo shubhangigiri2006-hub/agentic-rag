@@ -1,0 +1,13 @@
+# Secrets — never commit these
+.env
+
+# Python cache/artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Experiment logs — these are your local run outputs, not source code
+experiments/logs/*.json
+
+# VS Code settings (optional — keep if you don't want your personal editor config public)
+.vscode/
